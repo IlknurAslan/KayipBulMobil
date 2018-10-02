@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "78513869310",
+    "firebase_url": "https://kanpaylasmaproje.firebaseio.com",
+    "project_id": "kanpaylasmaproje",
+    "storage_bucket": "kanpaylasmaproje.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78513869310:android:47e04d41a64e358f",
+        "android_client_info": {
+          "package_name": "com.example.asus.kanpaylasmaproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78513869310-4nf9ekskgjd4lusg8odonfos5pv8d40i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.kanpaylasmaproje",
+            "certificate_hash": "f21c42e8734af5d9538430dca91c2727ba5cbc8e"
+          }
+        },
+        {
+          "client_id": "78513869310-5letkqlg65bumdi44e7u8hb7r2b110nf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWBVZ_Epot9mJOmT5lG-9y1Fe4YApfA1k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78513869310-5letkqlg65bumdi44e7u8hb7r2b110nf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

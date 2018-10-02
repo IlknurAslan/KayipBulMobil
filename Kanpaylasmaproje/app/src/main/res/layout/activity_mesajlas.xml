@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus.kanpaylasmaproje.Mesajlas">
+
+
+   <ListView
+       android:layout_width="match_parent"
+       android:layout_height="356dp"
+       android:id="@+id/mesaj"
+       >
+
+
+   </ListView>
+
+    <EditText
+        android:id="@+id/mesajyaz"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:textColorHint="#CD0000"
+        android:textColor="#CD0000"
+        android:hint="mesaj yaz"
+
+        />
+
+    <Button
+
+        android:id="@+id/gonder"
+        android:layout_width="250dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/mesajyaz"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:text="GÖNDER"
+        android:background="@drawable/buton"
+
+
+        android:layout_centerHorizontal="true"
+
+        />
+
+</LinearLayout>

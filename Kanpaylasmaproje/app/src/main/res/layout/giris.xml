@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KAYIP BUL"
+        android:textSize="40sp"
+        android:textColor="#250903"
+        android:textStyle="normal"
+        android:id="@+id/textView2"
+        android:fontFamily=""
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+-->
+    <ImageView
+        android:layout_width="325dp"
+        android:layout_height="70dp"
+        android:background="@drawable/logo"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editeposta"
+        android:layout_alignStart="@+id/editeposta" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifreni mi unuttun?"
+        android:textStyle="bold"
+        android:textColor="#250903"
+        android:layout_marginTop="12dp"
+        android:textSize="17dp"
+        android:layout_below="@+id/editesifre"
+        android:layout_alignRight="@+id/editesifre"
+        android:layout_alignEnd="@+id/editesifre">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veya Hızlıca Bağlan "
+        android:textSize="18sp"
+        android:textColor="#250903"
+        android:textStyle="bold"
+        android:id="@+id/hizli"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <EditText
+        android:id="@+id/editeposta"
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="62dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:hint="E-Posta Adresi"
+        android:textColorHint="@android:color/white"
+        android:inputType="text"
+
+        android:ems="10"
+        android:background="@drawable/edit_dw"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/editesifre"
+        android:layout_alignStart="@+id/editesifre" />
+
+    <EditText
+        android:id="@+id/editesifre"
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+
+        android:password="true"
+        android:hint="Parola"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/edit_dw"
+
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/editeposta"
+        android:layout_centerHorizontal="true" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sfr"
+
+        android:layout_alignBottom="@+id/editesifre"
+        android:layout_alignLeft="@+id/editesifre"
+        android:layout_alignStart="@+id/editesifre"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="11dp"
+        android:id="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/prfl"
+        android:layout_alignTop="@+id/editeposta"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_marginTop="11dp"
+
+        android:id="@+id/imageButton2" />
+
+    <Button
+
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="GİRİŞ"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:background="@drawable/buton"
+        android:id="@+id/btngiris"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/icon"
+    android:id="@+id/imageView3"
+    android:layout_marginBottom="23dp"
+    android:layout_marginLeft="13dp"
+    android:layout_marginStart="13dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignLeft="@+id/hizli"
+    android:layout_alignStart="@+id/hizli" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/google1"
+        android:id="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignRight="@+id/hizli"
+        android:layout_alignEnd="@+id/hizli"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+
+
+
+</RelativeLayout>

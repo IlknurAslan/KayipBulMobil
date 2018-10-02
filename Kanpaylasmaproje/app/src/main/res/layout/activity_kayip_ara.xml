@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.kanpaylasmaproje.Kayip_ara">
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lin2"
+
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:id="@+id/kayipresim"
+                android:layout_width="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="140dp"
+
+                android:background="@drawable/foto"
+                android:layout_alignRight="@+id/btnkayipresim"
+                android:layout_alignEnd="@+id/btnkayipresim" />
+
+            <Button
+                android:id="@+id/btnkayipresim"
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kayipresim"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/buton"
+                android:text="Resim Yükle "
+
+                android:textColor="@android:color/white" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/konumtut"
+                android:textSize="18dp"
+                android:textStyle="bold"
+
+
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editaciklama"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#CD0000"
+                android:layout_marginTop="20dp"
+                android:ellipsize="start"
+                android:hint="Açıklama giriniz..."
+                android:layout_below="@id/btnkayipresim"
+                android:textColor="#CD0000"
+
+                android:textColorHint="#CD0000"
+                android:layout_weight="0.48"
+                 />
+            <EditText
+                android:id="@+id/editiletisim"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#CD0000"
+                android:ellipsize="start"
+                android:hint="İletişim bilginizi giriniz..."
+                android:textColor="#CD0000"
+
+                android:textColorHint="#CD0000"
+                android:layout_below="@+id/editaciklama"
+                android:layout_marginTop="10dp"
+                android:layout_alignLeft="@+id/editaciklama"
+                android:layout_alignStart="@+id/editaciklama" />
+         <!--   <EditText
+                android:id="@+id/edityakinlik"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.48"
+                android:layout_below="@id/editiletisim"
+                android:backgroundTint="#CD0000"
+
+                android:ellipsize="start"
+                android:hint="Yakınlık derecenizi giriniz..."
+
+                android:textColor="#CD0000"
+                android:textColorHint="#CD0000" />
+-->
+
+            <CheckBox
+                android:id="@+id/yakinlik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yakını mısınız?"
+                android:textSize="17dp"
+                android:textColor="#CD0000"
+                android:layout_below="@+id/editiletisim"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp" />
+
+            <Spinner
+                android:id="@+id/yakinlik_spinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_alignTop="@+id/kategori"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/kategori"
+    android:layout_marginTop="32dp"
+    android:layout_below="@+id/yakinlik"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_toLeftOf="@+id/btnpaylas"
+    android:layout_toStartOf="@+id/btnpaylas">
+
+</Spinner>
+            <Button
+                android:id="@+id/btnpaylas"
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/buton"
+                android:text="Paylaş"
+                android:textColor="@android:color/white"
+                android:layout_below="@id/yakinlik"
+                android:layout_alignTop="@+id/editiletisim"
+                android:layout_alignLeft="@+id/btnkayipresim"
+                android:layout_alignStart="@+id/btnkayipresim"
+                android:layout_marginTop="150dp" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

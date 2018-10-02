@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+
+    <ImageView
+        android:layout_width="325dp"
+        android:layout_height="70dp"
+        android:background="@drawable/logo"
+        android:id="@+id/kayipbulres.m"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/editgmail"
+        android:layout_alignEnd="@+id/editgmail"
+        android:layout_alignLeft="@+id/editgmail"
+        android:layout_alignStart="@+id/editgmail" />
+
+    <EditText
+        android:id="@+id/editgmail"
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:hint="E-Posta Adresi"
+        android:textColorHint="@android:color/white"
+        android:inputType="text"
+        android:ems="10"
+        android:background="@drawable/edit_dw"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/editparola"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editparola"
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:password="true"
+        android:hint="Parola"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/edit_dw"
+        android:layout_above="@+id/kaydol"
+        android:layout_alignLeft="@+id/editgmail"
+        android:layout_alignStart="@+id/editgmail"
+        android:layout_marginBottom="75dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sfr"
+        android:layout_alignBottom="@+id/editparola"
+        android:layout_alignLeft="@+id/editparola"
+        android:layout_alignStart="@+id/editparola"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="11dp"
+        android:id="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/prfl"
+        android:layout_alignTop="@+id/editgmail"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_marginTop="11dp"
+        android:id="@+id/imageButton2" />
+
+    <Button
+
+        android:id="@+id/kaydol"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:background="@drawable/buton"
+        android:text="KAYIT OL"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="129dp" />
+
+
+</RelativeLayout>

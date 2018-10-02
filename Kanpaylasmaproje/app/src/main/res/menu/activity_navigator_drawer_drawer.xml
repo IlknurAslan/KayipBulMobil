@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/camera1"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_bildirimler"
+            android:icon="@drawable/file"
+            android:title="Paylaşımlar" />
+
+        <item
+            android:id="@+id/nav_haberpaylas"
+            android:icon="@drawable/paylas"
+            android:title=" Bilgi Paylaş" />
+        <item
+            android:id="@+id/nav_mesajlar"
+            android:icon="@drawable/text"
+            android:title="Mesajlar" />
+
+
+    </group>
+
+    <item android:title="Kayıp Kategorileri">
+
+
+        <menu>
+            <item
+                android:id="@+id/nav_insan"
+                android:title="İnsan"
+                android:icon="@drawable/people"
+
+                />
+            <item
+                android:id="@+id/nav_hayvan"
+
+                android:title="Evcil hayvanlar"
+                android:icon="@drawable/animal"
+                />
+            <item
+                android:id="@+id/nav_nesne"
+                android:title="Nesneler"
+                android:icon="@drawable/file"
+                />
+        </menu>
+    </item>
+
+</menu>

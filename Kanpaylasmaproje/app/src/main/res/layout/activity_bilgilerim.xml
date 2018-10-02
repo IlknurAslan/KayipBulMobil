@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.kanpaylasmaproje.Bilgilerim">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Ad/Soyad"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/fotodegistir"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="14dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_below="@+id/isim"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:text="Kullanıcı Adı" />
+
+
+            <TextView
+                android:id="@+id/bilgilerimkonum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kad"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/isim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CD0000"
+                android:backgroundTint="#CD0000"
+
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_below="@+id/textView11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/kad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#CD0000"
+                android:textColor="#CD0000"
+                android:layout_marginTop="11dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_below="@+id/textView13"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/isim"
+                android:layout_alignEnd="@+id/isim" />
+
+            <Button
+                android:id="@+id/kayit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kad"
+                android:background="@drawable/buton"
+                android:text="Kaydet"
+                android:layout_marginLeft="60dp"
+                android:textColor="@android:color/background_light"
+                android:layout_marginTop="40dp"
+                 />
+
+
+            <Button
+                android:id="@+id/fotodegistir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="FotografDegistir"
+                android:text="Fotoğrafı Değiştir"
+                android:textColor="#ffffff"
+                android:background="@drawable/buton"
+                android:layout_below="@+id/resim"
+                android:layout_centerHorizontal="true" />
+            <ImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/resim"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profil"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+
+<!--
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/resim"
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profil"
+                app:civ_border_width="2dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+          -->
+ <!--
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_below="@+id/kad"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:text="Adres" />
+
+            <EditText
+                android:id="@+id/editadres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#CD0000"
+                android:layout_marginTop="11dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_below="@+id/textView14"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+-->
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

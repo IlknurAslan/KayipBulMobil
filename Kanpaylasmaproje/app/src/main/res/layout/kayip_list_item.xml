@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="1">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#151313"
+        android:id="@+id/kullaniciadi"
+
+        />
+    <ImageView
+        android:id="@+id/resim"
+        android:layout_width="109dp"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/foto"
+        android:layout_marginLeft="150dp"
+        android:layout_weight="0.02" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#151313"
+           android:id="@+id/aciklama"
+
+           />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#151313"
+        android:layout_height="wrap_content"
+        android:id="@+id/iletisim"
+        />
+    <TextView
+    android:layout_width="wrap_content"
+        android:textColor="#151313"
+    android:layout_height="wrap_content"
+    android:id="@+id/yakinlik"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#151313"
+        android:layout_height="wrap_content"
+        android:id="@+id/kategori"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#151313"
+        android:layout_height="wrap_content"
+        android:id="@+id/uid"
+        />
+
+
+
+</LinearLayout>
