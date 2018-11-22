@@ -1,7 +1,7 @@
 package com.example.asus.kanpaylasmaproje;
 
 /**
- * Created by HULYA on 24.08.2017.
+ * Created by ilknur on 24.04.2017.
  */
 
 import android.support.annotation.IntDef;
